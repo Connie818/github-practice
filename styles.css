@@ -1,3 +1,28 @@
-h1 {
-    background-color: aqua;
+.column {
+    float: left;
+    width: 25%;
+   background-color: cadetblue;
+   text-align: center;
+}
+
+.row:after {
+    clear:both;
+    display:table;
+    content:""
+
+}
+
+.column1 {
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.column2 {
+    background-color: chocolate;
+    text-align: center;
+}
+
+.column3 {
+    background-color: cyan;
+    text-align: center;
 }
